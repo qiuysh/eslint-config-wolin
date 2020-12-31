@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-dtsmart",
+  "version": "1.0.0",
+  "description": "基于airbnb的eslint规则配置",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-tape-runner ./test/test-*.js",
+    "prepublish": "(in-install || eslint-find-rules --unused) && (not-in-publish || npm test) && safe-publish-latest"
+  },
+  "author": "wulin",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-config-airbnb-base": "14.2.0"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.8.7",
+    "babel-preset-airbnb": "^4.5.0",
+    "babel-tape-runner": "^3.0.0",
+    "eslint": "^7.16.0",
+    "eslint-find-rules": "^3.6.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "in-publish": "^2.0.1",
+    "react": ">= 0.13.0",
+    "safe-publish-latest": "^1.1.4",
+    "tape": "^5.0.1"
+  }
+}
