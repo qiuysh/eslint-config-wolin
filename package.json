@@ -17,6 +17,8 @@
     "@babel/runtime": "^7.8.7",
     "babel-preset-airbnb": "^4.5.0",
     "babel-tape-runner": "^3.0.0",
+    "commitizen": "^4.2.2",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.16.0",
     "eslint-find-rules": "^3.6.1",
     "eslint-plugin-import": "^2.22.1",
@@ -25,6 +27,12 @@
     "in-publish": "^2.0.1",
     "react": ">= 0.13.0",
     "safe-publish-latest": "^1.1.4",
+    "standard-version": "^9.1.0",
     "tape": "^5.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
