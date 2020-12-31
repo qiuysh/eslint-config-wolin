@@ -7,17 +7,17 @@ import eslintrc from '..';
 import reactRules from '../rules/react';
 import reactA11yRules from '../rules/react-a11y';
 
+// 创建eslint规则
 const cli = new(CLIEngine || ESLint)({
   useEslintrc: false,
   baseConfig: eslintrc,
 
   rules: {
-    // It is okay to import devDependencies in tests.
+    
     'import/no-extraneous-dependencies': [2, {
       devDependencies: true
     }],
-    // this doesn't matter for tests
-    'lines-between-class-members': 0,
+   
   },
 });
 
