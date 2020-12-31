@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "babel-tape-runner ./test/test-*.js",
-    "prepublish": "(in-install || eslint-find-rules --unused) && (not-in-publish || npm test) && safe-publish-latest",
+    "publish": "npm publish -registry http://registry.npm.dtstack.com",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "author": "wulin",
@@ -29,9 +29,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.21.5",
     "husky": "^4.3.6",
-    "in-publish": "^2.0.1",
     "react": ">= 0.13.0",
-    "safe-publish-latest": "^1.1.4",
     "standard-version": "^9.1.0",
     "tape": "^5.0.1"
   },
