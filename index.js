@@ -28,6 +28,7 @@ module.exports = {
     'no-useless-catch': 'warn', // 禁止不必要的 catch 子句
     'no-useless-concat': 'warn', // 禁止不必要的字符串字面量或模板字面量的连接
     'no-new-object': 'warn', // 禁用 Object 的构造函数
+    'no-new': 'warn',
     'vars-on-top': 'off', // 要求所有的 var 声明在它们所在的作用域顶部
     'object-shorthand': 'warn', // 要求或禁止对象字面量中方法和属性使用简写语法
     'eqeqeq': 'warn',   // 未使用 === 
