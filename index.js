@@ -3,13 +3,14 @@ module.exports = {
     'eslint-config-airbnb-base',
     'eslint-config-airbnb',
     './rules/react-a11y',
+    './rules/react-hooks',
     './rules/react',
   ].map(require.resolve),
   
   rules: { 
     // 基础的js规范覆盖
     // 文档：http://eslint.cn/docs/rules
-
+    'array-callback-return': 'warn',
     'block-scoped-var': 'warn', // 强制把变量的使用限制在其定义的作用域范围内
     'camelcase': 'warn', // 强制使用骆驼拼写法命名约定
     'consistent-return': 'warn', // 要求 return 语句要么总是指定返回的值，要么不指定

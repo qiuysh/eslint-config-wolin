@@ -31,7 +31,7 @@
 
 publish（发布）
 ```
-  npm run prepublish
+  npm run publish
 ```
 
 
@@ -39,7 +39,7 @@ publish（发布）
 
 test（测试）
 ```
-  npm run prepublish
+  npm run tests
 ```
 
 ### 其它

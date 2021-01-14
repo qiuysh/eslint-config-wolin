@@ -4,7 +4,7 @@
   "description": "基于airbnb的eslint规则配置",
   "main": "index.js",
   "scripts": {
-    "test": "babel-tape-runner ./test/test-*.js",
+    "test": "babel-tape-runner ./tests/test-*.js",
     "publish": "npm publish -registry http://registry.npm.dtstack.com",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "release": "standard-version"
@@ -29,6 +29,7 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "^4.3.6",
     "react": ">= 0.13.0",
     "standard-version": "^9.1.0",
