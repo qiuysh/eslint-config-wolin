@@ -19,7 +19,7 @@ module.exports = {
 
     'jsx-a11y/click-events-have-key-events': 'warn',
 
-    // 确保<a></a>标签有效
+    // 确保a标签有效
     'jsx-a11y/anchor-is-valid': ['warn', {
       components: ['Link'],
       specialLink: ['to'],

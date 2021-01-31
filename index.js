@@ -35,5 +35,13 @@ module.exports = {
     'eqeqeq': 'warn',   // 未使用 === 
     'prefer-template': 'warn', // 要求使用模板字面量而非字符串连接
     'prefer-promise-reject-errors': 'off', // 要求使用 Error 对象作为 Promise 拒绝的原因
+    'global-require': 'off',
+    'import/extensions': ['error', 'ignorePackages', {
+      'ts': 'never',
+      'tsx': 'never',
+      'js': 'never',
+      'jsx': 'never',
+      'ejs': 'never'
+    }]
   }
 };

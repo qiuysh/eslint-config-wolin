@@ -36,7 +36,8 @@ module.exports = {
     "react/jsx-filename-extension": ['warn', {
       "extensions": [
         ".js", 
-        ".ts", 
+        ".ts",
+        ".jsx", 
         ".tsx"
       ]
     }],
@@ -46,7 +47,7 @@ module.exports = {
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.js', '.jsx', '.json']
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.json']
       }
     },
     react: {
