@@ -6,7 +6,7 @@
 
 安装
 ```
-  npm install -D eslint-config-dtsmart
+  npm install -D eslint-config-wolin
 ```
 相关依赖版本
 
@@ -22,7 +22,7 @@
 .eslinrc.js或者类似档配置文件中
 ```
   {
-    "extends": "dtsmart",
+    "extends": "wolin",
     "rules": {
       ...
     }
