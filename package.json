@@ -1,11 +1,11 @@
 {
-  "name": "eslint-config-dtsmart",
-  "version": "1.0.2",
+  "name": "eslint-config-wolin",
+  "version": "1.0.0",
   "description": "基于airbnb的eslint规则配置",
   "main": "index.js",
   "scripts": {
     "test": "babel-tape-runner ./tests/test-*.js",
-    "publish": "npm publish -registry http://registry.npm.dtstack.com",
+    "publish": "npm publish -registry http://registry.npm.com",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "release": "standard-version"
   },
@@ -47,6 +47,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://gitlab.prod.dtstack.cn/dtsmart/eslint-config-dtsmart.git"
+    "url": "https://github.com/qiuysh/eslint-config-wolin.git"
   }
 }
