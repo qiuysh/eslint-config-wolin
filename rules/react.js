@@ -25,6 +25,14 @@ module.exports = {
 
     'react/jsx-curly-newline': 'off',
 
+    'react/jsx-first-prop-new-line': 'warn',
+
+    'react/jsx-max-props-per-line': 'warn',
+
+    'react/jsx-closing-bracket-location': 'warn',
+
+    'react/jsx-one-expression-per-line': 'off',
+
     // 禁止JSX的props spreading
     'react/jsx-props-no-spreading': ['warn', {
       html: 'enforce',
