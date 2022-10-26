@@ -1,13 +1,13 @@
 {
   "name": "eslint-config-wolin",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "基于airbnb的eslint规则配置",
   "main": "index.js",
   "scripts": {
     "test": "babel-tape-runner ./tests/test-*.js",
     "publish": "npm publish",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "release": "standard-version"
+    "release": "standard-version 1.0.1-alpha"
   },
   "author": "wulin",
   "license": "ISC",
@@ -49,7 +49,7 @@
     }
   },
   "publishConfig": {
-    "registry": "http://registry.npm.com"
+    "registry": "https://registry.npmjs.org"
   },
   "repository": {
     "type": "git",
