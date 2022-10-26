@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "babel-tape-runner ./tests/test-*.js",
-    "publish": "npm publish -registry http://registry.npm.com",
+    "publish": "npm publish",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "release": "standard-version"
   },
   "author": "wulin",
   "license": "ISC",
+  "files": [
+    "rules"
+  ],
   "dependencies": {
     "eslint-config-airbnb": "18.2.0",
     "eslint-config-airbnb-base": "14.2.0"
